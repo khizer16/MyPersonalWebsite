@@ -22,6 +22,8 @@
     margin-top:200px;
     padding-top: 125px;
     padding-bottom:125px;
+    padding-left: 100px;
+    padding-right: 100px;
     margin-left:20px;
     margin-right:20px;
     background-color: lightcoral;
@@ -40,6 +42,7 @@
     margin-top: 100px;
     margin-left:100px;
     margin-right:100px;
+    padding-left: 100px;
     font-size: x-large;
     flex-direction: column;
 }
@@ -54,4 +57,11 @@ a, a:link, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
+.img{
+    margin-top: 50px;
+    text-align: center;
+}
 
+img{
+    height:400px;
+}
