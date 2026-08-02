@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personal Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -24,16 +25,27 @@
        
     </div>
 
+    <div id="timer">
+        <h1>You have been on the site for <span id="time"></span> seconds</h1>
+    </div>
+
     <div class="intro">
     <h1>WELCOME!!!</h1>
     <p>My Personal Website</p>
     </div>
     <br>
 
+    <form id="comment">
+          <label for="title_input">Suggestions:</label>
+          <input type="text" id="title_input" placeholder="How to improve" />
+    </form>
+
     <div id=bottom>
         <p>My Name is Khizer Asghar. I am a 2026 ASC scholar.</p>
         <br>
-        <p>Click around and explore to learn more about me.</p></div>
+        <p>Click around and explore to learn more about me.</p>
+        <br>
+        <p>*BTW You have 1000 seconds</p></div>
 
    
     
